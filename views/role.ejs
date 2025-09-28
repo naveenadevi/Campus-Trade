@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Select Role | Campus Trade</title>
+  <meta name="description" content="Campus Trade - Select your role to continue as User or Admin. A minimalist entry page." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 flex items-center justify-center min-h-screen text-gray-800">
+  <div class="text-center space-y-8 max-w-lg px-4">
+    <h1 class="text-4xl font-bold">🛍️ Welcome to Campus Trade</h1>
+    
+    <div class="flex flex-col md:flex-row justify-center gap-6">
+      <a href="/login" 
+         class="px-6 py-3 bg-black text-white rounded-xl shadow-md hover:bg-gray-900 transition inline-flex items-center text-lg"
+         aria-label="Login as User">
+        👤 User
+      </a>
+      <a href="/admin/login" 
+         class="px-6 py-3 bg-black text-white rounded-xl shadow-md hover:bg-gray-900 transition inline-flex items-center text-lg"
+         aria-label="Login as Admin">
+        🛠️ Admin
+      </a>
+    </div>
+  </div>
+</body>
+</html>

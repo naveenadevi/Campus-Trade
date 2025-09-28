@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-10 bg-gray-100 text-gray-800 font-sans">
+  <div class="bg-white p-8 rounded shadow-md max-w-3xl mx-auto">
+    <h1 class="text-2xl font-bold mb-4 text-center">🧾 Invoice</h1>
+    <p class="mb-2"><strong>Order ID:</strong> <%= order._id %></p>
+   <p class="mb-2"><strong>Date:</strong> <%= order.createdAt.toDateString() %></p>
+
+    <table class="w-full mt-4 table-auto border border-collapse">
+      <thead>
+        <tr class="bg-gray-200">
+          <th class="border px-4 py-2 text-left">Product</th>
+          <th class="border px-4 py-2 text-right">Qty</th>
+          <th class="border px-4 py-2 text-right">Price</th>
+          <th class="border px-4 py-2 text-right">Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% order.items.forEach(item => { %>
+          <tr>
+            <td class="border px-4 py-2"><%= item.productId.title %></td>
+            <td class="border px-4 py-2 text-right"><%= item.quantity %></td>
+            <td class="border px-4 py-2 text-right">₹<%= item.productId.price %></td>
+            <td class="border px-4 py-2 text-right">₹<%= item.quantity * item.productId.price %></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+
+    <div class="text-right mt-4">
+      <p class="font-semibold">Total: ₹<%= order.totalAmount %></p>
+
+    </div>
+
+    <div class="text-center mt-6">
+      <a href="/home" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">🏠 Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>

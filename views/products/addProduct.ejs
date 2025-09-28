@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add Product</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-10">
+  <h1 class="text-2xl font-bold mb-4">Add Product</h1>
+  <form action="/addProduct" method="POST" class="space-y-4">
+    <input name="title" placeholder="Title" class="border p-2 w-full" required />
+    <input name="price" type="number" placeholder="Price" class="border p-2 w-full" required />
+    <input name="category" placeholder="Category" class="border p-2 w-full" />
+    <input name="img" placeholder="Image URL" class="border p-2 w-full" />
+    <input name="stock" type="number" placeholder="Stock" class="border p-2 w-full" required />
+    <button type="submit" class="bg-black text-white px-4 py-2 rounded">Save</button>
+  </form>
+</body>
+</html>

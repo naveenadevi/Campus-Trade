@@ -1,0 +1,27 @@
+{
+  "name": "flipkart-clone",
+  "version": "1.0.0",
+  "description": "A full Flipkart-style e-commerce web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.4.0",
+    "multer": "^2.0.2",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

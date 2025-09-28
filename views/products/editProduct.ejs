@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Product</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-10">
+  <h1 class="text-2xl font-bold mb-4">Edit Product</h1>
+  <form action="/edit/<%= product._id %>" method="POST" class="space-y-4">
+    <input name="title" value="<%= product.title %>" class="border p-2 w-full" required />
+    <input name="price" type="number" value="<%= product.price %>" class="border p-2 w-full" required />
+    <input name="category" value="<%= product.category %>" class="border p-2 w-full" />
+    <input name="img" value="<%= product.img %>" class="border p-2 w-full" />
+    <input name="stock" type="number" value="<%= product.stock %>" class="border p-2 w-full" required />
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Update</button>
+  </form>
+</body>
+</html>

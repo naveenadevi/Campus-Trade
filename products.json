@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Samsung Galaxy S20FE",
+    "price": 29999,
+    "category": "electronics",
+    "img": "images/samsungs20fe.jpg",
+    "stock": 10
+  },
+  {
+    "title": "Apple Watch Series 10",
+    "price": 42999,
+    "category": "electronics",
+    "img": "images/applewatch.jpg",
+    "stock": 15
+  },
+  {
+    "title": "boAt Rockerz 550 Wireless Headphones",
+    "price": 1999,
+    "category": "electronics",
+    "img": "images/boatrockerz.jpg",
+    "stock": 30
+  },
+  {
+    "title": "Lenovo Ideapad 3 Laptop",
+    "price": 54990,
+    "category": "electronics",
+    "img": "images/lenovoideapad.jpg",
+    "stock": 8
+  },
+  {
+    "title": "Wooden Bookshelf",
+    "price": 3999,
+    "category": "furniture",
+    "img": "images/bookshelf.jpg",
+    "stock": 12
+  },
+  {
+    "title": "Dining Table Set",
+    "price": 14999,
+    "category": "furniture",
+    "img": "images/dining.jpg",
+    "stock": 7
+  },
+  {
+    "title": "Office Chair",
+    "price": 4299,
+    "category": "furniture",
+    "img": "images/offchair.jpg",
+    "stock": 14
+  },
+  {
+    "title": "Fabric Sofa Set",
+    "price": 18499,
+    "category": "furniture",
+    "img": "images/sofa.jpg",
+    "stock": 5
+  },
+  {
+    "title": "Floral Kurti",
+    "price": 799,
+    "category": "fashion",
+    "img": "images/kurti.jpg",
+    "stock": 40
+  },
+  {
+    "title": "Men's Checked Shirt",
+    "price": 999,
+    "category": "fashion",
+    "img": "images/mensshirt.jpg",
+    "stock": 35
+  },
+  {
+    "title": "Traditional Silk Saree",
+    "price": 1299,
+    "category": "fashion",
+    "img": "images/saree.jpg",
+    "stock": 20
+  },
+  {
+    "title": "Sneakers",
+    "price": 2499,
+    "category": "fashion",
+    "img": "images/sneakers.jpg",
+    "stock": 18
+  },
+  {
+    "title": "Haier Refrigerator",
+    "price": 23000,
+    "category": "appliances",
+    "img": "images/fridge.jpg",
+    "stock": 6
+  },
+  {
+    "title": "iBell Microwave Oven",
+    "price": 6999,
+    "category": "appliances",
+    "img": "images/oven.jpg",
+    "stock": 11
+  },
+  {
+    "title": "Whirlpool Washing Machine",
+    "price": 17499,
+    "category": "appliances",
+    "img": "images/washing.jpg",
+    "stock": 4
+  },
+  {
+    "title": "LG Air Conditioner",
+    "price": 27990,
+    "category": "appliances",
+    "img": "images/ac.jpg",
+    "stock": 9
+  },
+  {
+    "title": "Doll House Play Set",
+    "price": 1199,
+    "category": "toys",
+    "img": "images/doll set.jpg",
+    "stock": 20
+  },
+  {
+    "title": "LEGO Classic Blocks",
+    "price": 2499,
+    "category": "toys",
+    "img": "images/lego.jpg",
+    "stock": 25
+  },
+  {
+    "title": "Remote Control Car",
+    "price": 1799,
+    "category": "toys",
+    "img": "images/remote car.jpg",
+    "stock": 16
+  },
+  {
+    "title": "Teddy Bear",
+    "price": 899,
+    "category": "toys",
+    "img": "images/teddy.jpg",
+    "stock": 30
+  }
+]
